@@ -12,6 +12,9 @@ export default function Home() {
           <Link href={`/meals/ciabatta`}>meals 상세 페이지로 이동하기</Link>
         </li>
         <li>
+          <Link href={`/meals/share`}>meals share 페이지로 이동하기</Link>
+        </li>
+        <li>
           <Link href={`/community`}>community 페이지로 이동하기</Link>
         </li>
       </ul>

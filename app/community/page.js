@@ -1,3 +1,3 @@
-export default function Community() {
+export default function CommunityPage() {
   return <main>This is Community Page.</main>;
 }
