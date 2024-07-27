@@ -7,7 +7,7 @@ export default async function MealsDetailPage({ params }) {
   const meal = await getMeal(params.menuId);
 
   if (!meal) {
-    notFound();
+    notFound(); //제일 가까운 not-found 나 오류 화면을 보여준다.
   }
 
   meal.instructions = meal.instructions.replace(/\n/g, "<br />");
