@@ -1,4 +1,5 @@
 "use client";
+
 import classes from "./image-picker.module.css";
 import { useState, useRef } from "react";
 import Image from "next/image";
@@ -48,6 +49,7 @@ export default function ImagePicker({ label, name }) {
           className={classes.input}
           type="file"
           id={name}
+          name={name}
           accept="image/png, image/jpeg"
           onChange={handleImageChange}
           required
